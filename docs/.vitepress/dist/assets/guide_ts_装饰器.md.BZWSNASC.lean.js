@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.C2mR__yb.js";const F=JSON.parse('{"title":"装饰器","description":"","frontmatter":{},"headers":[],"relativePath":"guide/ts/装饰器.md","filePath":"guide/ts/装饰器.md"}'),h={name:"guide/ts/装饰器.md"},k=n("",100),l=[k];function t(p,e,E,r,d,g){return a(),i("div",null,l)}const o=s(h,[["render",t]]);export{F as __pageData,o as default};

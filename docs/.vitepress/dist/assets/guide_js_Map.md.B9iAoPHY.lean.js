@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as h}from"./chunks/framework.C2mR__yb.js";const o=JSON.parse('{"title":"Map","description":"","frontmatter":{},"headers":[],"relativePath":"guide/js/Map.md","filePath":"guide/js/Map.md"}'),n={name:"guide/js/Map.md"},k=h("",52),l=[k];function p(t,e,E,d,r,g){return a(),i("div",null,l)}const F=s(n,[["render",p]]);export{o as __pageData,F as default};

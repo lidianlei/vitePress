@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.C2mR__yb.js";const o=JSON.parse('{"title":"DOM","description":"","frontmatter":{},"headers":[],"relativePath":"guide/js/DOM.md","filePath":"guide/js/DOM.md"}'),h={name:"guide/js/DOM.md"},t=n("",446),l=[t];function k(p,e,E,d,r,g){return a(),i("div",null,l)}const c=s(h,[["render",k]]);export{o as __pageData,c as default};
