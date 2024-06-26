@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.COISduc1.js";const F=JSON.parse('{"title":"断言","description":"","frontmatter":{},"headers":[],"relativePath":"guide/ts/断言.md","filePath":"guide/ts/断言.md"}'),h={name:"guide/ts/断言.md"},k=n("",88),t=[k];function l(p,e,d,E,r,g){return a(),i("div",null,t)}const c=s(h,[["render",l]]);export{F as __pageData,c as default};

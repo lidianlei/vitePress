@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a1 as t}from"./chunks/framework.C2mR__yb.js";const o=JSON.parse('{"title":"事件","description":"","frontmatter":{},"headers":[],"relativePath":"guide/js/事件.md","filePath":"guide/js/事件.md"}'),n={name:"guide/js/事件.md"},h=t("",116),l=[h];function k(p,e,E,d,r,g){return a(),i("div",null,l)}const c=s(n,[["render",k]]);export{o as __pageData,c as default};

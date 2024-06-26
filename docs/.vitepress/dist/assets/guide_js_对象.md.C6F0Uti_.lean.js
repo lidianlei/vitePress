@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.COISduc1.js";const F=JSON.parse('{"title":"对象","description":"","frontmatter":{},"headers":[],"relativePath":"guide/js/对象.md","filePath":"guide/js/对象.md"}'),h={name:"guide/js/对象.md"},k=n("",292),l=[k];function p(t,e,E,d,r,g){return a(),i("div",null,l)}const o=s(h,[["render",p]]);export{F as __pageData,o as default};

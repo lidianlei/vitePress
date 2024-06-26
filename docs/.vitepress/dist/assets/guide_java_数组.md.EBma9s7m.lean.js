@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.C2mR__yb.js";const F=JSON.parse('{"title":"数组","description":"","frontmatter":{},"headers":[],"relativePath":"guide/java/数组.md","filePath":"guide/java/数组.md"}'),h={name:"guide/java/数组.md"},k=n("",52),l=[k];function p(t,E,e,r,d,g){return a(),i("div",null,l)}const c=s(h,[["render",p]]);export{F as __pageData,c as default};
