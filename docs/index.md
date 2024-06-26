@@ -6,7 +6,7 @@ hero:
   name: "Y."
   text: "在线学习"
   image:
-    src: /public/logo.jpg
+    src: /logo.jpg
     alt: VitePress
 
   
