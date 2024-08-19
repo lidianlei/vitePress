@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Y."
+  name: "L."
   text: "在线学习"
   image:
     src: logo.jpg

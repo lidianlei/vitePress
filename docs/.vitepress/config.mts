@@ -2,7 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Y.",
+  title: "L.",
   base:"/vitePress/",
   description: "个人学习整理资料文档",
   head: [['link', {rel: 'icon', href: '/favicon.ico'}]],
