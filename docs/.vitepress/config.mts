@@ -41,12 +41,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {
-        text: 'Web',
+        text: '系统知识',
         items: [
-          {text: 'HTML', link: '/guide/html/HTML'},
-          {text: 'CSS', link: '/guide/css/select'},
-          {text: 'js', link: '/guide/js/base'},
-          {text: 'TypeScript', link: '/guide/ts/config'},
+          {text: 'HTML 页面结果', link: '/guide/html/HTML'},
+          {text: 'CSS 样式布局', link: '/guide/css/select'},
+          {text: 'js 编程语言', link: '/guide/js/base'},
+          {text: 'TypeScript 前端类型', link: '/guide/ts/config'},
         ]
       },
       {
@@ -70,9 +70,10 @@ export default defineConfig({
           }
         ],
       },
-      { text: 'Git', link: '/guide/git/git' },
+      { text: 'Git 版本控制', link: '/guide/git/git' },
       { text: 'NodeJs', link: '/guide/node/config' },
-      { text: 'MySql', link: '/guide/mysql/baseSql' },
+      { text: 'MySql', link: '/guide/mysql/准备' },
+      { text: 'Nestjs 后端框架', link: '/guide/nestjs/基础知识' },
       { text: 'Java', link: '/guide/java/java' },
     ],
     
@@ -171,6 +172,16 @@ export default defineConfig({
           ]
         }
       ],
+      '/guide/mysql/': [
+        {
+          items: [
+            {text: '准备', link: '/guide/mysql/准备'},
+            {text: '基本操作', link: '/guide/mysql/基本操作'},
+            {text: '表维护', link: '/guide/mysql/表维护'},
+            {text: '数据类型', link: '/guide/mysql/数据类型'},
+          ]
+        }
+      ],
       '/guide/node/': [
         {
           items: [
@@ -189,12 +200,11 @@ export default defineConfig({
           ]
         }
       ],
-      '/guide/mysql/': [
+      '/guide/nestjs/': [
         {
           items: [
-            {text: '基本操作', link: '/guide/mysql/baseSql'},
-            {text: '表维护', link: '/guide/mysql/表维护'},
-            {text: '数据类型', link: '/guide/mysql/数据类型'},
+            {text: '基础知识', link: '/guide/nestjs/基础知识'},
+            {text: '提供者', link: '/guide/nestjs/提供者'},
           ]
         }
       ],
