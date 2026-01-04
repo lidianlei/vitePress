@@ -179,6 +179,11 @@ export default defineConfig({
             {text: '基本操作', link: '/guide/mysql/基本操作'},
             {text: '表维护', link: '/guide/mysql/表维护'},
             {text: '数据类型', link: '/guide/mysql/数据类型'},
+            {text: '日期时间', link: '/guide/mysql/日期时间'},
+            {text: '运行模式', link: '/guide/mysql/运行模式'},
+            {text: '排序聚合分组', link: '/guide/mysql/排序聚合分组'},
+            {text: '多表攻略', link: '/guide/mysql/多表攻略'},
+            {text: '事务处理', link: '/guide/mysql/事务处理'},
           ]
         }
       ],
