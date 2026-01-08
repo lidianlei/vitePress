@@ -67,6 +67,10 @@ export default defineConfig({
           {
             text: 'pnpm',
             link: '/guide/tool/pnpm',
+          },
+          {
+            text: 'docker',
+            link: '/guide/docker/docker',
           }
         ],
       },
@@ -162,6 +166,19 @@ export default defineConfig({
             {text: 'npm', link: '/guide/tool/npm'},
             {text: 'nvm', link: '/guide/tool/nvm'},
             {text: 'pnpm', link: '/guide/tool/pnpm'},
+          ]
+        }
+      ],
+      '/guide/docker/': [
+        {
+          text: 'Web',
+          items: [
+            {text: 'docker', link: '/guide/docker/docker'},
+            {text: 'wordpress', link: '/guide/docker/wordpress'},
+            {text: 'compose', link: '/guide/docker/compose'},
+            {text: 'compose', link: '/guide/docker/compose'},
+            {text: 'Inmp', link: '/guide/docker/Inmp'},
+            {text: 'proxy', link: '/guide/docker/proxy'},
           ]
         }
       ],
