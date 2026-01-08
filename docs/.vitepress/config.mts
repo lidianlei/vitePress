@@ -184,6 +184,8 @@ export default defineConfig({
             {text: '排序聚合分组', link: '/guide/mysql/排序聚合分组'},
             {text: '多表攻略', link: '/guide/mysql/多表攻略'},
             {text: '事务处理', link: '/guide/mysql/事务处理'},
+            {text: '锁机制', link: '/guide/mysql/锁机制'},
+            {text: '外键约束', link: '/guide/mysql/外键约束'},
           ]
         }
       ],
