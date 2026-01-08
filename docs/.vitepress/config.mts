@@ -186,6 +186,8 @@ export default defineConfig({
             {text: '事务处理', link: '/guide/mysql/事务处理'},
             {text: '锁机制', link: '/guide/mysql/锁机制'},
             {text: '外键约束', link: '/guide/mysql/外键约束'},
+            {text: '索引优化', link: '/guide/mysql/索引优化'},
+            {text: '账号管理', link: '/guide/mysql/账号管理'},
           ]
         }
       ],
