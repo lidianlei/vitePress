@@ -250,14 +250,6 @@ sudo apt autoremove
 
 **Docker Toolbox**
 
-点击下图链接，在弹出的窗口中点击下载即可。
-
-
-
-![image-20190607194238228](https://cdn-image.houdunren.com/doc/docker/image-20190607194238228.png)
-
-
-
 Docker Toolbox 包括以下 Docker 工具:
 
 - Docker CLI 客户端，用于运行 Docker Engine 以创建映像和容器
@@ -437,13 +429,13 @@ docker run -tid --rm --name hd ubuntu /bin/bash
 
 停止容器
 
-```css
+```bash
 docker stop 3c5e00452777
 ```
 
 批量停止所有容器
 
-```css
+```bash
 docker stop `docker ps -q`
 ```
 
@@ -469,45 +461,39 @@ docker ps
 
 查看所有容器，包括停止的容器
 
-```css
+```bash
 docker ps -a
 ```
 
 查看容器进程
 
-```css
+```bash
 docker top ubuntu
 ```
 
 查看容器端口映射
 
-```undefined
+```bash
 docker port xx
 ```
 
 查看容器元信息(如 IP)
 
-```undefined
+```bash
 docker inspect xx
 ```
 
 容器异常时通过查看日志分析
 
-```undefined
+```bash
 docker logs xx
 ```
 
 过滤显示信息
 
-```swift
+```bash
 docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}"
 ```
-
-
-
-![image-20200112143423090](https://cdn-image.houdunren.com/doc/docker/image-20200112143423090.png)
-
-
 
 ### 删除容器
 
@@ -539,7 +525,7 @@ docker rm $(docker ps -aq)
 
 清理所有无用数据卷
 
-```undefined
+```bash
 docker volume prune
 ```
 
@@ -559,13 +545,13 @@ docker exec -it houdunren-php /bin/bash -c 'php -v'
 
 查看窗器内存等使用状况
 
-```undefined
+```bash
 docker stats houdunren-php houdunren-nginx
 ```
 
 运行结果如下
 
-```css
+```bash
 CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
 de32eaf31b74   houdunren-php     0.02%     7.434MiB / 1.941GiB   0.37%     1.01kB / 0B   1.68MB / 0B   3
 122903daba2d   houdunren-nginx   0.00%     6.102MiB / 1.941GiB   0.31%     1.01kB / 0B   2.15MB / 0B   5
@@ -581,7 +567,7 @@ de32eaf31b74   houdunren-php     0.02%     7.434MiB / 1.941GiB   0.37%     1.01k
 
 **删除无用数据卷**
 
-```undefined
+```bash
 docker volume prune
 ```
 

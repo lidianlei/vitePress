@@ -79,6 +79,23 @@ export default defineConfig({
       { text: 'MySql', link: '/guide/mysql/准备' },
       { text: 'Nestjs 后端框架', link: '/guide/nestjs/基础知识' },
       { text: 'Java', link: '/guide/java/java' },
+      { text: 'React', link: '/guide/react/react' },
+      {
+        text: '开发环境',
+        items: [
+          {text: '漂亮的编程字体', link: '/guide/environment/漂亮的编程字体'},
+          {text: 'autohotkey', link: '/guide/environment/autohotkey'},
+          {text: 'PowerShell', link: '/guide/environment/PowerShell'},
+          {text: 'wsl2', link: '/guide/environment/wsl2'},
+          {text: 'json-server', link: '/guide/environment/json-server'},
+          {text: 'mock', link: '/guide/environment/mock'},
+          {text: 'LAMP', link: '/guide/environment/LAMP'},
+          {text: 'wamp', link: '/guide/environment/wamp'},
+          {text: 'xampp', link: '/guide/environment/xampp'},
+          {text: 'laradock', link: '/guide/environment/laradock'},
+          {text: 'composer', link: '/guide/environment/composer'},
+        ]
+      },
     ],
     
     sidebar: {
@@ -246,7 +263,25 @@ export default defineConfig({
           ]
         }
       ],
-      
+      '/guide/environment/': [
+        {
+          text: '开发环境',
+          items: [
+            {text: '漂亮的编程字体', link: '/guide/environment/漂亮的编程字体'},
+            {text: 'autohotkey', link: '/guide/environment/autohotkey'},
+            {text: 'PowerShell', link: '/guide/environment/PowerShell'},
+            {text: 'wsl2', link: '/guide/environment/wsl2'},
+            {text: 'json-server', link: '/guide/environment/json-server'},
+            {text: 'mock', link: '/guide/environment/mock'},
+            {text: 'LAMP', link: '/guide/environment/LAMP'},
+            {text: 'wamp', link: '/guide/environment/wamp'},
+            {text: 'xampp', link: '/guide/environment/xampp'},
+            {text: 'laradock', link: '/guide/environment/laradock'},
+            {text: 'composer', link: '/guide/environment/composer'},
+          ]
+        }
+      ],
+     
     }
     
   }
